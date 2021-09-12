@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body
+{
+font-family: Dancing Script;
+margin:0px;}
+root{
+    primary-color: #6EE7B7;
+    light-green:#ECFDF5;
+}
+.container{
+padding: left 1rem;
+padding-right: 1rem;
+}
+.container-fluid {
+
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
