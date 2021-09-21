@@ -78,6 +78,11 @@ max-width: 350px;
 display: block;
 margin: auto;
 }
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    }
 .hero-heading{
 text-align:center;
 padding-top: 1rem;
