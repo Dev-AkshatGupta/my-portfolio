@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-body
-{
-font-family: Dancing Script;
-margin:0px;}
-root{
-    --primary-color: #6EE7B7;
+:root{
+    --primary-color: 
+    #059669;
     --light-green:#ECFDF5;
 }
+body
+{
+font-family: 'Special Elite', cursive;
+margin:0px;
+}
+
 hr{
     margin: 2rem 0rem;
 }
@@ -35,13 +38,13 @@ padding-right: 1rem;
 .primary-link{
     border-radius: 0.5rem;
     color: white;
-    background-color:  #6EE7B7;
+    background-color:  var(--primary-color);
     
 }
 .secondary-link{
-    color: #6EE7B7;
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border:1px solid  #6EE7B7;
+    border:1px solid  var(--primary-color);
 }
 .link-active{
     font-weight: bold;
@@ -56,8 +59,8 @@ padding-right: 1rem;
 }
 /**navigators**/
 .navigation{
-background-color: #6EE7B7;
-color: white;
+background-color:var(--primary-color);
+color:white;
 border-bottom-left-radius: 1rem; 
 }
 .navigation .link{
@@ -88,14 +91,14 @@ text-align:center;
 padding-top: 1rem;
 }
  .hero .hero-heading .highlighted{
-color: #6EE7B7;
+color:var(--primary-color);
 }
 /**sections**/
 .section h1{
   text-align: center;  
 }
 .ow{
-background-color: #ECFDF5;
+background-color:var(--light-green);
 }
 .section{
     padding: 2rem;
@@ -103,7 +106,7 @@ background-color: #ECFDF5;
 /**footer**/
 
 .footer{
-    background-color: #6EE7B7;
+    background-color:var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
     color: white;
