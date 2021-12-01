@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>Eloquent JavaScript-Program Structure</title>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">I m Hoshiyar Balak Akshat the web developer</div>
+        <ul class="non-bullet-ul nav-pills">
+            <li class="list-item-inline"><a href="/index.html" class="link">home</a></li>
+
+            <li class="list-item-inline"><a href="/projects.html" class="link ">Projects</a></li>
+            <li class="list-item-inline"><a href="blogs.html" class="link link-active">Blogs</a></li>
+        </ul>
+    </nav>
+    <div class="container container-center padding">
+        <img class="hero-image" src=""></img>
+        <h1 class="highlighted">JavaScript-Program Structure</h1>
+        <small>30Nov2021</small>
+        <p>
+            Program Structure as the name itself suggests that program in structure that is we have know about programs creating values and applying operators to create new values but they need to be put in larger structure to be useful. 
+         </p>
+         <!-- <h3>Expressions and Statements</h3> -->
+         <h2>Expressions and Statements</h2>
+         <p><strong>Expressions</strong>- fragment of code that produces value.Expression can be literally anything they are kind of very similar to the sentences like a sentence can have sub-sentences and a sub-sentence have another sub-sentence and so on this is how a expression can have sub-expressions and so on this way it allows to write arbitrarily complex computations.For ex-"Akshat","Expressions","#id".</p>
+         <p><strong>Statements</strong>- We can simply say a Statement as a Expression having semicolon after it.For ex-button.addEventListener("click",function);.Expression corresponds to a sentence fragment and statement corresponds to full statement.An Expression can be content to just produce value.A statement amounts to something only if it affects the code like the example it helps to select the buttons click event .Such changes which affects the program like in example are called <em>Side-effects</em>   </p>
+        <!-- <h3>Bindings / Variables </h3> -->
+        <h2>Bindings / Variables</h2>
+        <p>Lets simplify it they are sort of variables used in Maths and to understand them properly they are like place-holders to catch or to define values specifically or you can think of a specific drawer in which specific things are kept inside it.There are 3 ways to create a Binding that is <strong>Let,Const,Var</strong>(Let,Constant,Variable,) Every Binding starts with them followed up by a name and = operator then a value .For ex-let x=0 , const name=Akshat.
+        Imagine like a pen holder that can keep only one pen every time so in var/let case you can access the pen till its not changed with another pen otherwise you can access the pen but the pen which you will access is that another pen not the same so the values which once given to a binding can only be access till its not changed otherwise the changed value will be accessed in case of const you can't keep a different pen once const binding given a value it will remain unchanged in the whole program. <strong>Binding Nomenclature</strong> it can be any word with or without numeric characters without any special character and <em>reserved-keywords</em>  except $ and _</p>
+        <h3>The Environment</h3>
+        <p>Bindings and values collectively that exists at point of time is called <strong>Environment</strong> . By default its not empty.It always have language standard Bindings. </p>
+        <h2>Functions</h2>
+        <p>Function can be explained as small machines do their programs and gives their values as outputs and/or creates side-effects which can be further used. They basically are piece of program wrapped in a value.Executing one is called the <em>invoking</em>,<em>calling</em>,<em>applying</em>.They are wrote like name and parentheses after that like functionName(arguments). <em>Arguments</em>  are the values that are passed while executing function and <em>Parameters</em> are given while describing a function . Like-function(parameters){}. </p>
+        <h3>Console.log Function</h3>
+        <p>Basically this function helps us to access the resultant value passed as argument to it and can be analysed in our browsers console.Its not regular function since it access the log binding from the console binding.</p>
+        <h3>Control-Flow</h3>
+        <p>Programs are always executed like they are story from top to bottom line wise.
+            <strong>Number(),Boolean(),String()</strong> are the functions which helps to convert the value in the form as their respective name suggests when passed as arguments.
+        </p>
+        <h3>Conditional-Execution</h3>
+        <p>All programs don't have straight control flow there can be branching road like conditions like either this or no this or anything else or nothing at all if condition is not fulfilled.This is called <em>Conditional Execution</em> This is achieved through <strong>if</strong> and <strong>else</strong> statements and also <strong>If/Else</strong> after which a block is defined through <strong>{}</strong> these braces in which multiple line of codes can be written known as a <strong>Block</strong> </p>
+        
+        <h3>While and Do loops</h3>
+        <p>Idea of writing program is to make things work with less effort.Sometimes we need to do a repetitive task having some pattern so we use a control flow known as <em>Loop</em>. <strong>While</strong> loop is a loop which will repeat the whole Block of code until the condition is fulfilled which has been passed into it .A do loop is a control structure which will execute itself at least once </p>
+        <h2>Comments</h2>
+        <p>We sometimes want to make the understand somethings to code reader which cant't always be studied by reading code so we use comments in this case .The text or code commented doesn't shows to client Comments written in two ways</p>
+        <ul>
+            <li><strong>//</strong> This goes only to the end of line</li>
+            <li><strong>/*---*/ </strong>Any section of text irrespective of the size of text inside these will be commented.</li>
+        </ul>
+    <h2>Summary</h2>
+    <p>We can store values with the help of bindings and not only that we can also write deliberate functions with the help of loops ,bindings and also If statements.These things are a lot useful in day to day coding. </p>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-header"> You can connect to me here</div>
+        <ul class="non-bullet-list social links ">
+            <li class="list-item-inline"><a href="https://github.com/anuakshat" class="link">Git Hub</a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/Akshat86604233?s=08" class="link">Twitter</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/akshat-gupta-257914157"
+                    class="link">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
